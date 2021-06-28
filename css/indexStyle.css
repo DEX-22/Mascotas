@@ -1,0 +1,161 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/principalBackground.jpg');
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navBar{
+
+    display: flex;
+    justify-content: center;
+    
+}
+    
+.listaNavBar{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+.itemNavBar{
+    padding: 10px 5px;
+}
+.itemNavBar:hover{
+
+
+    background-color: #00000088;
+    
+}
+
+.linkNavBar{
+
+    text-decoration: none;
+    color: ivory;
+    font-size: 20pt;
+
+}
+
+
+header{
+    background-color: #436598;
+    margin: 0;
+    width: 100%;
+    height: 600px;
+}
+.contenedorImagenesHeader{
+    width: 75%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenesHeader{
+    width: 100%;
+    height: 100%;
+}
+.secciones{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#seccion1{
+    background-color: #7CA6E5;
+}
+.contenedorImagenesSecciones{
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+    }
+.imagenesSecciones{
+    width: auto;
+    height: 100%;
+    
+    
+}
+.contenedorTextoSecciones{
+    width: 50%;
+    padding-right: 150px;
+    
+    border-left: 90px transparent solid;
+    border-bottom: 350px solid #995B53;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: space-around;
+
+}
+.tituloSecciones{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.textoSecciones{
+
+    text-align: justify;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    
+}
+.seccionAnimales{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+.seccionAnimales h2{
+    text-align: center;
+}
+.contenedorAnimales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contenedorImagenesAnimales{
+    height: 300px;
+    width: 250px;
+    background: #FFFFFFcc;
+    display: flex;
+    flex-direction: column;
+}
+.tituloAnimales{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.imagenesAnimales{
+
+    height: 250px;
+    width: 200px;
+
+    margin: auto;
+}
+
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #1A2E4D;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#pie{
+    font-weight: bold;
+    color:#000;
+    text-align: right;
+    padding-right: 10px;
+    margin: 0;
+}
